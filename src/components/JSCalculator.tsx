@@ -12,7 +12,7 @@ const JSCalculatorDiv = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-image: url("/public/Calculator_bg.png");
+    background-image: url("../../public/Calculator_bg.png");
     
     @media screen and (max-width: 900px) {
         width: 100%;

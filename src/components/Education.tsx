@@ -169,7 +169,7 @@ export default function Education(){
                         <MainTitle>Education</MainTitle>
                         <MainContent>
                             <EducationBlock>
-                                <BUImage src="/public/Boston_University.png" alt="Boston University" />
+                                <BUImage src="../../public/Boston_University.png" alt="Boston University" />
                                 <h2>Boston University</h2>
                                 <Text><strong>Duration:</strong> September 2024 - May 2026</Text>
                                 <Text><strong>Degree:</strong> Bachelor of Science in Computer Science</Text>
@@ -193,7 +193,7 @@ export default function Education(){
                             </EducationBlock>
 
                             <EducationBlock>
-                                <TUImage src="/public/Temple_University.png" alt="Temple University" />
+                                <TUImage src="../../public/Temple_University.png" alt="Temple University" />
                                 <TUTitle>Temple University</TUTitle>
                                 <Text><strong>Duration:</strong> August 2022 - May 2024</Text>
                                 <Text><strong>Degree:</strong> Bachelor of Science in Computer Science</Text>
