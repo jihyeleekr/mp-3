@@ -126,7 +126,7 @@ export default function Home(){
                     <StyledMain>
                         <StyledMainTitle>Home</StyledMainTitle>
                         <MainContent>
-                            <StyledProfile src="../../public/profile.png" alt="Profile Picture" />
+                            <StyledProfile src="/profile.png" alt="Profile Picture" />
                             <StyledMainText>
                                 <StyledText>
                                     My name is Jihye Lee, a highly motivated and technically skilled junior pursuing a degree in Computer Science at Boston University, set to graduate in May 2026. With a strong GPA of 3.90, I have built a solid foundation in core computer science principles through coursework in Algorithms, Data Structures, Machine Learning, and Distributed Systems.
