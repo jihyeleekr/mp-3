@@ -1,9 +1,11 @@
 import {styled} from 'styled-components';
+import {useParams} from "react-router";
+import {useEffect} from "react";
 import Header from './Header';
 import Nav from './Nav';
 import Footer from './Footer';
-import {useParams} from "react-router";
-import {useEffect} from "react";
+
+
 
 const PageWrapper = styled.div`
     width: 80vw;
@@ -49,6 +51,12 @@ const MainTitle = styled.h3`
     text-align: center;
     font-size: calc(2px + 2vw);
     color: #003366;
+
+    @media screen and (max-width: 900px) {
+        font-size: calc(1.5em + 0.5vw);
+        text-align: center;
+        color: #003366;
+    }
 `;
 
 const MainDiv = styled.div`

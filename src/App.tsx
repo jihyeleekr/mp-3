@@ -5,12 +5,10 @@ import Experience from "./components/Experience";
 import Extracurricular from "./components/Extracurricular";
 import TechnicalSkill from "./components/TechnicalSkill";
 import Project from "./components/Project";
-import GlobalStyles from "./components/GlobalStyles";
 
 function Root(){
     return (
         <div>
-            <GlobalStyles/>
                 <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/education" element={<Education />} />
